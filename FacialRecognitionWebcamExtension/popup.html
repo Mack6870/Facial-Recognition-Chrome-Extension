@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+
+<head>
+    <meta charset="iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facial recognition Extension</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
+
+
+    <script language="JavaScript" type="text/javascript" src="jQuery.js"></script>
+    <script src="popup.js"></script>
+
+
+</head>
+
+<body>
+<style>
+    body{
+        margin: 25px;
+        width: 30%;
+        height: 50%
+    }
+</style>
+
+
+<div>
+    <h1 class="ui inverted red header">
+        Facial Recognition Extension
+    </h1>
+</div>
+<div class="modal-content">
+    <p>Passwords protected by facial recognition technology</p>
+    <span><i class="user secret icon big"></i></span>
+</div>
+<div class="modal-icons">
+    <div class="flex-container">
+        <h1></h1>
+        <div class="flex">
+            <button class="ui inverted red button" id="unlock" style="margin-bottom: 20px" >Unlock</button>
+        </div>
+        <div class="flex">
+            <p id="resultText" style="margin-bottom: 20px">Press Unlock to allow autofill</p>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
